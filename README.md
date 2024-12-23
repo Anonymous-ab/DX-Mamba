@@ -14,14 +14,10 @@
         h1 {
             font-family: 'Roboto', sans-serif; /* Another font for headings */
         }
-        .right-aligned {
-            text-align: right;
-        }
     </style>
 </head>
 
 <body>
-    <div class="right-aligned">
     <header>
         <h1 style="text-align: center;">DX-Mamba: Exploring State Space Model for Dog X-ray Report Generation</h1>
     </header>
