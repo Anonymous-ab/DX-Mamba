@@ -1,4 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Example</title>
+    <!-- Google Fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
 
+        h1 {
+            font-family: 'Roboto', sans-serif; /* Another font for headings */
+        }
+    </style>
+</head>
 
 <body>
     body {
