@@ -22,9 +22,9 @@
         <h1 style="text-align: center;">DX-Mamba: Exploring State Space Model for Dog X-ray Report Generation</h1>
     </header>
     <nav>
-        <a href="#abstract">Abstract</a>
-        <a href="#theme">DX-Mamba and state space model (SSM)</a>
-        <a href="#overview">Overview</a>
+        <div href="#abstract">Abstract</div>
+        <div href="#theme">DX-Mamba and state space model (SSM)</div>
+        <div href="#overview">Overview</div>
     </nav>
     <main>
         <section id="abstract">
