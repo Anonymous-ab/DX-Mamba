@@ -26,17 +26,18 @@
         <section id="overview">
             <h2>Overview</h2>
             <p>The DX-Mamba model leverages the vision Mamba backbone, with newly proposed triple attention alignment (TAA), and feature fusion and disentanglement state space models (FF-SSM and FD-SSM), and a language transformer decoder. Combining these structures enables our DX-Mamba model to better align the image and text features for better report generation performance. We also propose a large-scale report generation dataset containing dog thoracic X-ray images and reports. 
+                <h3>Dataset</h3>
+                <p>We develop the first large-scale dog thoracic X-ray dataset, Dog-Xray, mainly to deal with the lack of training data for deep learning models facilitating the report generation task in the veterinary field. The dataset is unique as it is the first large-scale dataset focusing on dogs. It contains 13,794 dog thoracic studies and 36,264 corresponding X-ray images.
+                <\p>
                 <h3>Model architectures</h3>
                     <ul>
-                        <li>Triple attention alignment (TAA)</li> This TAA architecture ensures the alignment of text and image features in an image pair and extracts the shared information from both text and image features.
-                        <li>Feature fusion and disentanglement SSM</li> These SSMs help with complementary image and text feature learning and disentanglement.
-                        <li>Report intra-class and inter-class loss</li> These two losses aim to compact reports with similar contents and part those with distinct classes.
+                        <li><strong>Triple attention alignment (TAA)<strong></li> This TAA architecture ensures the alignment of text and image features in an image pair and extracts the shared information from both text and image features.
+                        <li><strong>Feature fusion and disentanglement SSM<strong></li> These SSMs help with complementary image and text feature learning and disentanglement.
+                        <li><strong>Report intra-class and inter-class loss<strong></li> These two losses aim to compact reports with similar contents, i.e., reports with similar contents in the same class, and part those with different classes.
                     </ul>
-        </section>
                 
-    </main>
+            
     <footer>
         <p>&copy; 2024 Anonymous-ab. All rights reserved.</p>
     </footer>
-</body>
 
