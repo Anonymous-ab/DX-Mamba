@@ -17,7 +17,7 @@
         <section id="theme">
             <h2>DX-Mamba and state space model (SSM) for report generation</h2>
             <figure style="text-align: center;">
-                <img src="DX-Mamba.png" alt="Figure 1: Workflow of the proposed DX-Mamba model" style="width: 300px;">
+                <img src="DX-Mamba.png" alt="Figure 1: Workflow of the proposed DX-Mamba model" style="width: 800px;">
                 <figcaption>Figure 1: Workflow of the proposed DX-Mamba model</figcaption>
             </figure>
             <p>Automatic report generation for medical images aims to produce several descriptive sentences about medical images. Encoder-decoder architectures and retrieval augmented generation (RAG) methods have been applied to the automatic report generation task. However, the transformer-based methods as well as RAG are computationally expensive. In 2023, the Mamba model, leveraging the efficiency of selective state space models in compressing necessary information in smaller states, was proposed to address the computational inefficiency of transformers and local perception limitations of CNNs. In this research, we aim to use the powerful vision Mamba structure as the backbone and SSMs for feature fusion and disentanglement for the automatic report generation task. This page provides an overview of our proposed method. With extensive experiments, we show that our DX-Mamba model can be applied as an effective report generation model.  
