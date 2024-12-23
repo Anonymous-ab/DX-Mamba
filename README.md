@@ -64,12 +64,17 @@ BLEU-4).</figcaption>
                     <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Table 2: Results comparisons of different methods on the IU-Xray dataset.</figcaption>
                 </figure>           
                 <p>We evaluate our DX-Mamba model using BLEU, METEOR,  ROUGE-L, and CIDEr. We compared our model with state-of-the-art report generation models, vision-language models, and retrieval augmented-generation (RAG) methods on our Dog-Xray dataset and the widely-used human lung IU-Xray dataset for the report generation performance. As shown in Table 1, our proposed DX-Mamba model outperforms state-of-the-art models on most metrics in the automatic report generation task using the Dog-Xray dataset. In particular, we can see great improvements in BLEU and CIDEr scores. We also compared the performance of DX-Mamba with state-of-the-art models using the benchmark dataset, IU-Xray. As shown in Table 2, we found that compared to models initially trained with human medical datasets, instead of veterinary datasets, our model also displayed promising performance on the report generation task, achieving the highest score across all metrics.</p>
+                <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+                    <img src="prediction.png" alt="Figure 2: Predicted reports comparison on a sample image pair 12088 using DX-Mamba and LLaMA-3.2-3B models." style="width: 800px; max-width: 100%; height: auto;">
+                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Figure 2: Predicted reports comparison on a sample image pair 12088 using DX-Mamba and LLaMA-3.2-3B models.</figcaption>
+                </figure>    
+                <p>To better demonstrate the effectiveness of our DX-Mamba model, we include a sample study and predictions for the qualitative analysis. We include predictions using the DX-Mamba model and the LLama-3.2-3B model. We can see from Figure 2 that the prediction of our DX-Mamba model is highly similar to the sample ground truth, regarding both phrasing and semantic similarity. The key parts of the reports highlighted in red "No abnormality is detected." and blue "...negative for thoracic metastatic neoplasia" indicate that both models can capture the semantic meanings of the image pair and the ground truth report, while the LLaMA-3.2-3B model predicts additional information not relevant to the original report.</p>
                 <h3>Benefits in the medical field</h3>
                      <ul>
                         <li><b>More accurate prediction:</b> Including the novel SSMs and losses in our DX-Mamba model enables our model to perform better at predicting more semantically similar and accurate reports that reflect the information from x-ray images. </li>
                         <li><b> Scalability to other fields:</b> Our extensive experiment results show that our model can be applied to the human medical field in addition to the veterinary field.  </li> 
-                <h3>Current challenge </h3>
                 <h3>Future direction</h3>
+                <p>In the future, we plan to modify our model to make it a fully Mamba-based model, further leveraging the superior capacity of Vision Mamba on text and image feature learning and processing.</p>
             
     <footer>
         <p>&copy; 2024 Anonymous-ab. All rights reserved.</p>
