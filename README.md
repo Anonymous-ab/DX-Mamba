@@ -28,7 +28,7 @@
     <nav>
         <a href="#abstract">Abstract</a>
         <a href="#theme">DX-Mamba and state space model (SSM)</a>
-        <a href="#overview">Overview</a>
+        <a href="#results">Results</a>
     </nav>
     <main>
         <section id="abstract">
@@ -41,21 +41,22 @@
                 <img src="DX-Mamba.png" alt="Figure 1: Workflow of the proposed DX-Mamba model" style="width: 800px; max-width: 100%; height: auto;">
                 <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Figure 1: Workflow of the proposed DX-Mamba model</figcaption>
             </figure>
-            <p>Automatic report generation for medical images aims to produce several descriptive sentences about medical images. Encoder-decoder architectures and retrieval augmented generation (RAG) methods have been applied to the automatic report generation task. However, the transformer-based methods as well as RAG are computationally expensive. In 2023, the Mamba model, leveraging the efficiency of selective state space models in compressing necessary information in smaller states, was proposed to address the computational inefficiency of transformers and local perception limitations of CNNs. In this research, we aim to use the powerful vision Mamba structure as the backbone and SSMs for feature fusion and disentanglement for the automatic report generation task. This page provides an overview of our proposed method. With extensive experiments, we show that our DX-Mamba model can be applied as an effective report generation model.  
-             </p>
-        </section>
-        <section id="overview">
-            <h2 style="text-align: center;">Overview</h2>
-            <p>The DX-Mamba model leverages the vision Mamba backbone, with newly proposed triple attention alignment (TAA), and feature fusion and disentanglement state space models (FF-SSM and FD-SSM), and a language transformer decoder. Combining these structures enables our DX-Mamba model to better align the image and text features for better report generation performance. We also propose a large-scale report generation dataset containing dog thoracic X-ray images and reports. 
-                <h3>Dataset</h3>
-                <p>We develop the first large-scale dog thoracic X-ray dataset, Dog-Xray, mainly to deal with the lack of training data for deep learning models facilitating the report generation task in the veterinary field. The dataset is unique as it is the first large-scale dataset focusing on dogs. It contains 13,794 dog thoracic studies and 36,264 corresponding X-ray images.
-                <\p>
+            <p>Automatic report generation for medical images aims to produce several descriptive sentences about medical images. Encoder-decoder architectures and retrieval augmented generation (RAG) methods have been applied to the automatic report generation task. However, the transformer-based methods as well as RAG are computationally expensive. In 2023, the Mamba model, leveraging the efficiency of selective state space models in compressing necessary information in smaller states, was proposed to address the computational inefficiency of transformers and local perception limitations of CNNs. In this research, we aim to use the powerful vision Mamba structure as the backbone and SSMs for feature fusion and disentanglement for the automatic report generation task. This page provides an overview of our proposed method. 
+            </p>   
                 <h3>Model architectures</h3>
+                <p>The DX-Mamba model leverages the vision Mamba backbone, with newly proposed triple attention alignment (TAA), and feature fusion and disentanglement state space models (FF-SSM and FD-SSM), and a language transformer decoder. Combining these structures enables our DX-Mamba model to better align the image and text features for better report generation performance. We also propose a large-scale report generation dataset containing dog thoracic X-ray images and reports. </p>
                     <ul>
                         <li><b>Triple attention alignment (TAA):</b>  This TAA architecture ensures the alignment of text and image features in an image pair and extracts the shared information from both text and image features. </li>
                         <li><b>Feature fusion and disentanglement SSMs:</b>  These SSMs help with complementary image and text feature learning and disentanglement.</li> 
                         <li><b>Report intra-class and inter-class losses:</b>  These two losses aim to compact reports with similar contents, i.e., reports with similar contents in the same class, and part those with different classes.</li> 
                     </ul>
+        </section>
+        <section id="results">
+            <h2 style="text-align: center;">Results</h2>
+            <p>To evaluate the performance of our proposed DX-Mamba model, we collected a large-scale dog x-ray dataset, named Dog-Xray. With extensive experiments, we show that our DX-Mamba model can be applied as an effective report-generation model, in both the veterinary and human medical fields.  </p>
+                <h3>Dataset</h3>
+                <p>We develop the first large-scale dog thoracic X-ray dataset, Dog-Xray, mainly to deal with the lack of training data for deep learning models facilitating the report generation task in the veterinary field. The dataset is unique as it is the first large-scale dataset focusing on dogs. It contains 13,794 dog thoracic studies and 36,264 corresponding X-ray images.
+                <\p>
                 <h3>Experiment results</h3>
                 <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
                     <img src="Dog-Xray compare.png" alt="Table 1: Results comparisons of different methods on the Dog-Xray dataset (1, 2, 3, and 4 refer to BLEU-1, BLEU-2, BLEU-3, and
@@ -67,7 +68,7 @@ BLEU-4).</figcaption>
                     <img src="Dog-Xray compare.png" alt="Table 2: Results comparisons of different methods on the IU-Xray dataset." style="width: 800px; max-width: 100%; height: auto;">
                     <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Table 2: Results comparisons of different methods on the IU-Xray dataset.</figcaption>
                 </figure>           
-                <p>We evaluate our DX-Mamba model using BLEU, METEOR,  ROUGE-L, and CIDEr. We compared our model with state-of-the-art report generation models, vision-language models, and retrieval augmented-generation (RAG) methods on our Dog-Xray dataset and the widely-used human lung IU-Xray dataset for the report generation performance. As shown in Table 1, our proposed DX-Mamba model outperforms state-of-the-art models on most metrics in the automatic report generation task using the Dog-Xray dataset. In particular, we can see great improvements in BLEU and CIDEr scores. We also compared the performance of DX-Mamba with state-of-the-art models using the benchmark dataset, IU-Xray. As shown in Table 2, we found that compared to models initially trained with human medical datasets, instead of veterinary datasets, our model also displayed promising performance on the report generation task, achieving the highest score across all metrics.</p>
+                <p>We evaluate our DX-Mamba model using BLEU, METEOR,  ROUGE-L, and CIDEr. We compared our model with state-of-the-art report generation models, vision-language models, and retrieval augmented-generation (RAG) methods on our Dog-Xray dataset and the widely-used human lung IU-Xray dataset for the report generation performance. As shown in Table 1, our proposed DX-Mamba model outperforms state-of-the-art models on all metrics in the automatic report generation task using the Dog-Xray dataset. In particular, we can see great improvements in BLEU and CIDEr scores. We also compared the performance of DX-Mamba with state-of-the-art models using the benchmark dataset, IU-Xray. As shown in Table 2, we found that compared to models initially trained with human medical datasets, instead of veterinary datasets, our model also displayed promising performance on the report generation task, achieving the highest score across all metrics.</p>
                 <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
                     <img src="prediction.png" alt="Figure 2: Predicted reports comparison on a sample image pair 12088 using DX-Mamba and LLaMA-3.2-3B models." style="width: 800px; max-width: 100%; height: auto;">
                     <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Figure 2: Predicted reports comparison on a sample image pair 12088 using DX-Mamba and LLaMA-3.2-3B models.</figcaption>
