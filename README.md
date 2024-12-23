@@ -14,6 +14,10 @@
         h1 {
             font-family: 'Roboto', sans-serif; /* Another font for headings */
         }
+        nav a {
+            display: block; /* Makes each link appear on a new line */
+            margin-bottom: 10px; /* Adds spacing between links */
+        }
     </style>
 </head>
 
@@ -22,9 +26,9 @@
         <h1 style="text-align: center;">DX-Mamba: Exploring State Space Model for Dog X-ray Report Generation</h1>
     </header>
     <nav>
-        <div href="#abstract">Abstract</div>
-        <div href="#theme">DX-Mamba and state space model (SSM)</div>
-        <div href="#overview">Overview</div>
+        <a href="#abstract">Abstract</a>
+        <a href="#theme">DX-Mamba and state space model (SSM)</a>
+        <a href="#overview">Overview</a>
     </nav>
     <main>
         <section id="abstract">
