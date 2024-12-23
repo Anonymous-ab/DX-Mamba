@@ -25,6 +25,13 @@
         </section>
         <section id="overview">
             <h2>Overview</h2>
+            <p>The DX-Mamba model leverages the vision Mamba backbone, with newly proposed triple attention alignment (TAA), and feature fusion and disentanglement state space models (FF-SSM and FD-SSM), and a language transformer decoder. Combining these structures enables our DX-Mamba model to better align the image and text features for better report generation performance. We also propose a large-scale report generation dataset containing dog thoracic X-ray images and reports. 
+                <h3>Model architectures</h3>
+                    <ul>
+                        <li>Triple attention alignment (TAA)</li> This TAA architecture ensures the alignment of text and image features in an image pair and extracts the shared information from both text and image features.
+                        <li>Feature fusion and disentanglement SSM</li> These SSMs help with complementary image and text feature learning and disentanglement.
+                        <li>Report intra-class and inter-class loss</li> These two losses aim to compact reports with similar contents and part those with distinct classes.
+                    </ul>
         </section>
                 
     </main>
@@ -32,4 +39,4 @@
         <p>&copy; 2024 Anonymous-ab. All rights reserved.</p>
     </footer>
 </body>
-</html>
+
