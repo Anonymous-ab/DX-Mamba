@@ -7,17 +7,6 @@
     <!-- Google Fonts link -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
-         .flex-container {
-            display: flex;
-            justify-content: space-between; /* Distributes items from left to right */
-            width: 100%;
-        }
-
-        .flex-item {
-            padding: 10px;
-            background-color: lightblue;
-            border: 1px solid #ddd;
-        }
         body {
             font-family: 'Roboto', sans-serif;
         }
@@ -29,7 +18,6 @@
 </head>
 
 <body>
-    <div class="flex-container">
     <header>
         <h1 style="text-align: center;">DX-Mamba: Exploring State Space Model for Dog X-ray Report Generation</h1>
     </header>
