@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,9 +18,6 @@
 </head>
 
 <body>
-    body {
-    font-family: Roboto, Helvetica, sans-serif;
-}
     <header>
         <h1 style="text-align: center;">DX-Mamba: Exploring State Space Model for Dog X-ray Report Generation</h1>
     </header>
