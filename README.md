@@ -52,6 +52,18 @@
                         <li><b>Feature fusion and disentanglement SSMs:</b>  These SSMs help with complementary image and text feature learning and disentanglement.</li> 
                         <li><b>Report intra-class and inter-class losses:</b>  These two losses aim to compact reports with similar contents, i.e., reports with similar contents in the same class, and part those with different classes.</li> 
                     </ul>
+                <h3>Experiment results</h3>
+                <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+                    <img src="Dog-Xray compare.png" alt="Table 1: Results comparisons of different methods on the Dog-Xray dataset (1, 2, 3, and 4 refer to BLEU-1, BLEU-2, BLEU-3, and
+BLEU-4)." style="width: 800px; max-width: 100%; height: auto;">
+                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Table 1: Results comparisons of different methods on the Dog-Xray dataset (1, 2, 3, and 4 refer to BLEU-1, BLEU-2, BLEU-3, and
+BLEU-4).</figcaption>
+                </figure>    
+                <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+                    <img src="Dog-Xray compare.png" alt="Table 2: Results comparisons of different methods on the IU-Xray dataset." style="width: 800px; max-width: 100%; height: auto;">
+                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Table 2: Results comparisons of different methods on the IU-Xray dataset.</figcaption>
+                </figure>           
+                <p>We evaluate our DX-Mamba model using BLEU, METEOR,  ROUGE-L, and CIDEr. We compared our model with state-of-the-art report generation models, vision-language models, and retrieval augmented-generation (RAG) methods on our Dog-Xray dataset and the widely-used human lung IU-Xray dataset for the report generation performance. As shown in Table 1, our proposed DX-Mamba model outperforms state-of-the-art models on most metrics in the automatic report generation task using the Dog-Xray dataset. In particular, we can see great improvements in BLEU and CIDEr scores. We also compared the performance of DX-Mamba with state-of-the-art models using the benchmark dataset, IU-Xray. As shown in Table 2, we found that compared to models initially trained with human medical datasets, instead of veterinary datasets, our model also displayed promising performance on the report generation task, achieving the highest score across all metrics.</p>
                 <h3>Benefits in the medical field</h3>
                      <ul>
                         <li><b>More accurate prediction:</b> Including the novel SSMs and losses in our DX-Mamba model enables our model to perform better at predicting more semantically similar and accurate reports that reflect the information from x-ray images. </li>
