@@ -14,6 +14,9 @@
         h1 {
             font-family: 'Roboto', sans-serif; /* Another font for headings */
         }
+        .right-aligned {
+            text-align: right;
+        }
     </style>
 </head>
 
