@@ -31,9 +31,9 @@
                 <\p>
                 <h3>Model architectures</h3>
                     <ul>
-                        <li><b>Triple attention alignment (TAA)</b>  This TAA architecture ensures the alignment of text and image features in an image pair and extracts the shared information from both text and image features.</li> 
-                        <li><b>Feature fusion and disentanglement SSM</b>   These SSMs help with complementary image and text feature learning and disentanglement.</li>
-                        <li><b>Report intra-class and inter-class loss</b>   These two losses aim to compact reports with similar contents, i.e., reports with similar contents in the same class, and part those with different classes.</li>
+                        <li><b>Triple attention alignment (TAA)</b></li>  This TAA architecture ensures the alignment of text and image features in an image pair and extracts the shared information from both text and image features. 
+                        <li><b>Feature fusion and disentanglement SSM</b></li>   These SSMs help with complementary image and text feature learning and disentanglement.
+                        <li><b>Report intra-class and inter-class loss</b></li>   These two losses aim to compact reports with similar contents, i.e., reports with similar contents in the same class, and part those with different classes.
                     </ul>
                 
             
