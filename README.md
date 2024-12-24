@@ -21,9 +21,9 @@
         
 .tab img {
             width: 80px; /* Set the size of the image */
-            height: 30px;
+            height: 50px;
             border-radius: 5px; /* Optional: Rounded corners */
-            border: 1px solid #ccc;
+            border: non;
             cursor: pointer; /* Show pointer on hover */
         }
 
