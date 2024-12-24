@@ -19,18 +19,26 @@
             margin-bottom: 10px; /* Adds spacing between links */
         }
         
-.tab img {
-            width: 80px; /* Set the size of the image */
-            height: 50px;
-            border-radius: 5px; /* Optional: Rounded corners */
-            border: non;
+        .tab-container {
+            display: flex; /* Enable flexbox */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Make container full screen for demonstration */
+            background-color: #f1f1f1;
+        }
+
+        /* Style the clickable image */
+        .tab img {
+            width: 40px; /* Set the size of the image */
+            height: 80px;
+            border: none; /* Remove border */
             cursor: pointer; /* Show pointer on hover */
         }
 
-        /* Hover effect for the image */
+        /* Optional hover effect */
         .tab img:hover {
-            border-color: #007BFF; /* Change border color on hover */
-        }       
+            opacity: 0.8; /* Slight fade effect on hover */
+        }
 
     </style>
 </head>
