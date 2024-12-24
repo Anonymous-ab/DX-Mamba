@@ -19,28 +19,18 @@
             margin-bottom: 10px; /* Adds spacing between links */
         }
         
-        .tab-container {
-            display: flex;
-            justify-content: flex-start;
-            padding: 10px;
-            background-color: #f1f1f1;
+.tab img {
+            width: 50px; /* Set the size of the image */
+            height: 50px;
+            border-radius: 5px; /* Optional: Rounded corners */
+            border: 1px solid #ccc;
+            cursor: pointer; /* Show pointer on hover */
         }
 
-        /* Style the tab */
-        .tab {
-            display: inline-block;
-            padding: 10px 20px;
-            margin-right: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: #007BFF; /* Blue background */
-            color: white; /* White text */
-            text-decoration: none; /* Remove underline */
-            font-size: 16px;
-            font-weight: bold;
-            cursor: pointer;
-            text-align: center;
-        }
+        /* Hover effect for the image */
+        .tab img:hover {
+            border-color: #007BFF; /* Change border color on hover */
+        }       
 
     </style>
 </head>
@@ -56,8 +46,10 @@
     </nav>
 
     <div class="tab-container">
-        <!-- Clickable tab -->
-        <a href="https://github.com/JialuLi06/DX-Mamba" class="code" target="_blank">Go to code page</a>
+        <!-- Clickable image tab -->
+        <a href="[https://example.com](https://github.com/JialuLi06/DX-Mamba)" class="tab" target="_blank">
+            <img src="https://via.placeholder.com/50" alt="Code">
+        </a>
     </div>
     
     <main>
