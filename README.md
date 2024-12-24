@@ -18,6 +18,34 @@
             display: block; /* Makes each link appear on a new line */
             margin-bottom: 10px; /* Adds spacing between links */
         }
+        
+        .tab-container {
+            display: flex;
+            justify-content: flex-start;
+            padding: 10px;
+            background-color: #f1f1f1;
+        }
+
+        /* Style the tab */
+        .tab {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #007BFF; /* Blue background */
+            color: white; /* White text */
+            text-decoration: none; /* Remove underline */
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        /* Hover effect for the tab */
+        .tab:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 
@@ -30,6 +58,12 @@
         <a href="#theme">DX-Mamba and state space model (SSM)</a>
         <a href="#results">Results</a>
     </nav>
+
+    <div class="tab-container">
+        <!-- Clickable tab -->
+        <a href="https://github.com/JialuLi06/DX-Mamba" class="code" target="_blank">Go to Page</a>
+    </div>
+    
     <main>
         <section id="abstract">
             <h2 style="text-align: center;">Abstract</h2>
