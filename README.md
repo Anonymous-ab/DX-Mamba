@@ -27,7 +27,7 @@
 
         /* Style the clickable image */
         .tab img {
-            width: 80px; /* Set the size of the image */
+            width: 85px; /* Set the size of the image */
             height: 40px;
             border: none; /* Remove border */
             cursor: pointer; /* Show pointer on hover */
