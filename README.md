@@ -53,7 +53,7 @@
 
     <div class="tab-container">
         <!-- Clickable image tab -->
-        <a href="[[https://example.com](https://github.com/JialuLi06/DX-Mamba)](https://github.com/JialuLi06/DX-Mamba)" class="tab" target="_blank">
+        <a href="https://github.com/JialuLi06/DX-Mamba" class="tab" target="_blank">
             <img src="code.png" alt="Code">
         </a>
     </div>
