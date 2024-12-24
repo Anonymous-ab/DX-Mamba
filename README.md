@@ -23,8 +23,6 @@
             display: flex; /* Enable flexbox */
             justify-content: center; /* Center horizontally */
             align-items: center; /* Center vertically */
-            height: 100vh; /* Make container full screen for demonstration */
-            background-color: #f1f1f1;
         }
 
         /* Style the clickable image */
