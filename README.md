@@ -84,7 +84,7 @@ model.</figcaption>
                      <ul>
                         <li><b>More accurate prediction:</b> Including the novel SSMs and losses in our DX-Mamba model enables our model to perform better at predicting more semantically similar and accurate reports that reflect the information from x-ray images. </li>
                         <li><b> Scalability to other fields:</b> Our extensive experiment results show that our model can be applied to the human medical field in addition to the veterinary field.  </li>
-                     </ul>ul>
+                     </ul>
                 <h3>Future direction</h3>
                 <p>In the future, we plan to modify our model to make it a fully Mamba-based model, further leveraging the superior capacity of Vision Mamba on text and image feature learning and processing.</p>
             
