@@ -20,8 +20,8 @@
         }
         
 .tab img {
-            width: 50px; /* Set the size of the image */
-            height: 50px;
+            width: 80px; /* Set the size of the image */
+            height: 30px;
             border-radius: 5px; /* Optional: Rounded corners */
             border: 1px solid #ccc;
             cursor: pointer; /* Show pointer on hover */
@@ -48,7 +48,7 @@
     <div class="tab-container">
         <!-- Clickable image tab -->
         <a href="[https://example.com](https://github.com/JialuLi06/DX-Mamba)" class="tab" target="_blank">
-            <img src="https://via.placeholder.com/50" alt="Code">
+            <img src="code.png" alt="Code">
         </a>
     </div>
     
