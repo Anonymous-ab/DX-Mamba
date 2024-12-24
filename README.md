@@ -42,10 +42,6 @@
             text-align: center;
         }
 
-        /* Hover effect for the tab */
-        .tab:hover {
-            background-color: #0056b3;
-        }
     </style>
 </head>
 
@@ -61,7 +57,7 @@
 
     <div class="tab-container">
         <!-- Clickable tab -->
-        <a href="https://github.com/JialuLi06/DX-Mamba" class="code" target="_blank">Go to Page</a>
+        <a href="https://github.com/JialuLi06/DX-Mamba" class="code" target="_blank">Go to code page</a>
     </div>
     
     <main>
