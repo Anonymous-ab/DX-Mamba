@@ -93,7 +93,7 @@ BLEU-4)." style="width: 800px; max-width: 100%; height: auto;">
 BLEU-4).</figcaption>
                 </figure>    
                 <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
-                    <img src="Dog-Xray compare.png" alt="Table 2: Results comparisons of different methods on the IU-Xray dataset." style="width: 800px; max-width: 100%; height: auto;">
+                    <img src="IU-Xray.png" alt="Table 2: Results comparisons of different methods on the IU-Xray dataset." style="width: 800px; max-width: 100%; height: auto;">
                     <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Table 2: Results comparisons of different methods on the IU-Xray dataset.</figcaption>
                 </figure>           
                 <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
