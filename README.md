@@ -102,6 +102,36 @@ model." style="width: 800px; max-width: 100%; height: auto;">
                     <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Figure 2: Predicted report samples on image pairs 13059 and 11106 using the DX-Mamba
 model.</figcaption>
                 </figure>  
+                <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+                    <img src="compare 1.png" alt="Figure 3: Predicted report samples on image pairs 11615 and 11314 using the DX-Mamba
+    model." style="width: 800px; max-width: 100%; height: auto;">
+                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Figure 3: Predicted report samples on image pairs 11615 and 11314 using the DX-Mamba
+    model.</figcaption>
+                </figure>
+                <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+                    <img src="compare 2.png" alt="Figure 4: Predicted report samples on image pairs 12008 and 12010 using the DX-Mamba
+    model." style="width: 800px; max-width: 100%; height: auto;">
+                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Figure 4: Predicted report samples on image pairs 12008 and 12010 using the DX-Mamba
+    model.</figcaption>
+                </figure>   
+                <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+                    <img src="compare 3.png" alt="Figure 5: Predicted report samples on image pairs 12490 and 13245 using the DX-Mamba
+    model." style="width: 800px; max-width: 100%; height: auto;">
+                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Figure 5: Predicted report samples on image pairs 12490 and 13245 using the DX-Mamba
+    model.</figcaption>
+                </figure>         
+                <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+                    <img src="compare 4.png" alt="Figure 6: Predicted report samples on image pairs 13451 and 13604 using the DX-Mamba
+    model." style="width: 800px; max-width: 100%; height: auto;">
+                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Figure 6: Predicted report samples on image pairs 13451 and 13604 using the DX-Mamba
+    model.</figcaption>
+                </figure>           
+                <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+                    <img src="compare 5.png" alt="Figure 7: Predicted report samples on image pairs 12816 and 13712 using the DX-Mamba
+    model." style="width: 800px; max-width: 100%; height: auto;">
+                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Figure 7: Predicted report samples on image pairs 12816 and 13712 using the DX-Mamba
+    model.</figcaption>
+                </figure>                       
                 <p>We evaluate our DX-Mamba model using BLEU, METEOR,  ROUGE-L, and CIDEr. We compared our model with state-of-the-art report generation models, vision-language models, and retrieval augmented-generation (RAG) methods on our Dog-Xray dataset and the widely-used human lung IU-Xray dataset for the report generation performance. Figure 2 displays two predicted reports from two sample image pairs. As shown in Table 1, our proposed DX-Mamba model outperforms state-of-the-art models on all metrics in the automatic report generation task using the Dog-Xray dataset. In particular, we can see great improvements in BLEU and CIDEr scores. We also compared the performance of DX-Mamba with state-of-the-art models using the benchmark dataset, IU-Xray. As shown in Table 2, we found that compared to models initially trained with human medical datasets, instead of veterinary datasets, our model also displayed promising performance on the report generation task, achieving the highest score across all metrics.</p>
                 <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
                     <img src="prediction.png" alt="Figure 3: Predicted reports comparison on a sample image pair 12088 using DX-Mamba and LLaMA-3.2-3B models." style="width: 800px; max-width: 100%; height: auto;">
