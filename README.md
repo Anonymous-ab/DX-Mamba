@@ -148,7 +148,7 @@ model.</figcaption>
                 <h3>Future direction</h3>
                 <p>In the future, we plan to modify our model to make it a fully Mamba-based model, further leveraging the superior capacity of Vision Mamba on text and image feature learning and processing.</p>
 
-                <p>Please contact jli10@mail.yu.edu or youshan.zhang@yu.edu for more information about the benchmark dataset.
+                <p>Please contact jli10@mail.yu.edu or youshan.zhang@yu.edu for more information about the Dog-Xray dataset.
             
     <footer>
         <p>&copy; 2024 Anonymous-ab. All rights reserved.</p>
