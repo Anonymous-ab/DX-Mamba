@@ -83,8 +83,7 @@
             <h2 style="text-align: center;">Results</h2>
             <p>To evaluate the performance of our proposed DX-Mamba model, we collected a large-scale dog x-ray dataset, named Dog-Xray. With extensive experiments, we show that our DX-Mamba model can be applied as an effective report-generation model, in both the veterinary and human medical fields.</p>
                 <h3>Dataset</h3>
-                <p>We develop the first large-scale dog thoracic X-ray dataset, Dog-Xray, mainly to deal with the lack of training data for deep learning models facilitating the report generation task in the veterinary field. The dataset is unique as it is the first large-scale dataset focusing on dogs. It contains 13,794 dog thoracic studies and 36,264 corresponding X-ray images.
-                <\p>
+                <p>We develop the first large-scale dog thoracic X-ray dataset, Dog-Xray, mainly to deal with the lack of training data for deep learning models facilitating the report generation task in the veterinary field. The dataset is unique as it is the first large-scale dataset focusing on dogs. It contains 13,794 dog thoracic studies and 36,264 corresponding X-ray images.<\p>
                 <h3>Experiment results</h3>
                 <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
                     <img src="Figures/Dog-Xray compare.png" alt="Table 1: Results comparisons of different methods on the Dog-Xray dataset (1, 2, 3, and 4 refer to BLEU-1, BLEU-2, BLEU-3, and
