@@ -53,7 +53,7 @@
 
     <div class="tab-container">
         <!-- Clickable image tab -->
-        <a href="https://github.com/Anonymous-ab/DX-Mamba_page" class="tab" target="_blank">
+        <a href="https://github.com/Anonymous-ab/DX-Mamba" class="tab" target="_blank">
             <img src="Figures/code.png" alt="Code">
         </a>
     </div>
