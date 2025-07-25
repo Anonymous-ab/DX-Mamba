@@ -115,7 +115,7 @@ model.</figcaption>
                 
                 <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
                     <img src="Figures/abnormal 13115.png" alt="Figure 3: Abnormal report prediction: study 13115 (lung abnormality)." style="width: 800px; max-width: 100%; height: auto;">
-                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Figure 3: Abnormal report prediction: study 13115 (lung abnormality)..</figcaption>
+                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Figure 3: Abnormal report prediction: study 13115 (lung abnormality). </figcaption>
                 </figure>
                 
 
