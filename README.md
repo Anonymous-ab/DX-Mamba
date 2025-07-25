@@ -84,28 +84,35 @@
             <p>To evaluate the performance of our proposed DX-Mamba model, we collected a large-scale dog x-ray dataset, named Dog-Xray. With extensive experiments, we show that our DX-Mamba model can be applied as an effective report-generation model, in both the veterinary and human medical fields.</p>
                 <h3>Dataset</h3>
                 <p>We develop the first large-scale dog thoracic X-ray dataset, Dog-Xray, mainly to deal with the lack of training data for deep learning models facilitating the report generation task in the veterinary field. The dataset is unique as it is the first large-scale dataset focusing on dogs. It contains 13,794 dog thoracic studies and 36,264 corresponding X-ray images.
-                <h3>Experiment results</h3>
+
                 <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
                     <img src="Figures/validation table.png" alt="Table 1: Results comparisons of different methods on the Dog-Xray validation dataset." style="width: 800px; max-width: 100%; height: auto;">
                     <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Table 1: Results comparisons of different methods on the Dog-Xray validation dataset.</figcaption>
+                </figure>   
+                
+                <h3>Experiment results</h3>
+                
+                <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+                    <img src="Figures/validation table.png" alt="Table 2: Results comparisons of different methods on the Dog-Xray validation dataset." style="width: 800px; max-width: 100%; height: auto;">
+                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Table 2: Results comparisons of different methods on the Dog-Xray validation dataset.</figcaption>
                 </figure>    
 
                 <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
-                    <img src="Figures/test table.png" alt="Table 2: Results comparisons of different methods on the Dog-Xray test dataset." style="width: 800px; max-width: 100%; height: auto;">
-                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Table 2: Results comparisons of different methods on the Dog-Xray test dataset.</figcaption>
+                    <img src="Figures/test table.png" alt="Table 3: Results comparisons of different methods on the Dog-Xray test dataset." style="width: 800px; max-width: 100%; height: auto;">
+                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Table 3: Results comparisons of different methods on the Dog-Xray test dataset.</figcaption>
                 </figure>    
 
                 <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
-                    <img src="Figures/accuracy.png" alt="Table 3: Results comparisons (× 100) of accuracy using different methods on the Dog X-ray dataset on the validation and test sets." style="width: 800px; max-width: 100%; height: auto;">
-                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Table 3: Results comparisons (× 100) of accuracy using different methods on the Dog X-ray dataset on the validation and test sets.</figcaption>
+                    <img src="Figures/accuracy.png" alt="Table 4: Results comparisons (× 100) of accuracy using different methods on the Dog X-ray dataset on the validation and test sets." style="width: 800px; max-width: 100%; height: auto;">
+                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Table 4: Results comparisons (× 100) of accuracy using different methods on the Dog X-ray dataset on the validation and test sets.</figcaption>
                 </figure>      
                 
                 <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
-                    <img src="Figures/Other datasets.png" alt="Table 4: Results comparisons of different methods on the IU-Xray and MIMIC-CXR dataset." style="width: 800px; max-width: 100%; height: auto;">
-                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Table 4: Results comparisons of different methods on the IU-Xray and MIMIC-CXR datasets.</figcaption>
+                    <img src="Figures/Other datasets.png" alt="Table 5: Results comparisons of different methods on the IU-Xray and MIMIC-CXR dataset." style="width: 800px; max-width: 100%; height: auto;">
+                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Table 5: Results comparisons of different methods on the IU-Xray and MIMIC-CXR datasets.</figcaption>
                 </figure>           
                 
-                <p>We evaluate our DX-Mamba model using BLEU, METEOR,  ROUGE-L, and CIDEr. We compared our model with state-of-the-art report generation models, vision-language models, and retrieval augmented-generation (RAG) methods on our Dog-Xray dataset and the widely-used benchmark human lung IU-Xray and MIMIC-CXR datasets for the report generation performance. Figure 2 and Figure 3 display predicted reports from 3 sample image pairs. As shown in Table 1 and Table 2, our proposed DX-Mamba model outperforms state-of-the-art models on all metrics in the automatic report generation task using the Dog-Xray dataset. In particular, we can see great improvements in BLEU and CIDEr scores. We evaluate the clinical correctness of predicted reports using different methods. Table 3 shows that the DX-Mamba model achieves better overall accuracy in generating either normal or abnormal reports. We also compared the performance of DX-Mamba with state-of-the-art models using the benchmark datasets, IU-Xray and MIMIC-CXR. As shown in Table 4, compared to models initially trained with human medical datasets, instead of veterinary datasets, our model also displayed promising performance on the report generation task, achieving the highest score across all metrics.</p>
+                <p>We evaluate our DX-Mamba model using BLEU, METEOR,  ROUGE-L, and CIDEr. We compared our model with state-of-the-art report generation models, vision-language models, and retrieval augmented-generation (RAG) methods on our Dog-Xray dataset and the widely-used benchmark human lung IU-Xray and MIMIC-CXR datasets for the report generation performance. Figure 2 and Figure 3 display predicted reports from 3 sample image pairs. As shown in Table 2 and Table 3, our proposed DX-Mamba model outperforms state-of-the-art models on all metrics in the automatic report generation task using the Dog-Xray dataset. In particular, we can see great improvements in BLEU and CIDEr scores. We evaluate the clinical correctness of predicted reports using different methods. Table 4 shows that the DX-Mamba model achieves better overall accuracy in generating either normal or abnormal reports. We also compared the performance of DX-Mamba with state-of-the-art models using the benchmark datasets, IU-Xray and MIMIC-CXR. As shown in Table 5, compared to models initially trained with human medical datasets, instead of veterinary datasets, our model also displayed promising performance on the report generation task, achieving the highest score across all metrics.</p>
                 <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
                     <img src="Figures/predict_samples.png" alt="Figure 2: Predicted report samples on image pairs 13059 and 11106 using the DX-Mamba
 model." style="width: 800px; max-width: 100%; height: auto;">
