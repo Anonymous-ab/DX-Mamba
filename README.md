@@ -87,12 +87,12 @@
                 <h3>Experiment results</h3>
                 <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
                     <img src="Figures/validation table.png" alt="Table 1: Results comparisons of different methods on the Dog-Xray validation dataset." style="width: 800px; max-width: 100%; height: auto;">
-                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Table 1: Results comparisons of different methods on the Dog-Xray validation dataset).</figcaption>
+                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Table 1: Results comparisons of different methods on the Dog-Xray validation dataset.</figcaption>
                 </figure>    
 
                 <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
                     <img src="Figures/test table.png" alt="Table 2: Results comparisons of different methods on the Dog-Xray test dataset." style="width: 800px; max-width: 100%; height: auto;">
-                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Table 2: Results comparisons of different methods on the Dog-Xray test dataset).</figcaption>
+                    <figcaption style="margin-top: 10px; font-style: italic; color: #555; text-align: center;">Table 2: Results comparisons of different methods on the Dog-Xray test dataset.</figcaption>
                 </figure>    
 
                 <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
