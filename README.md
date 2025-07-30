@@ -62,7 +62,9 @@
     
     <main>
 
+
                 <p>We have uploaded our dataset on Hugging Face: https://huggingface.co/datasets/Anonymousab/Dog-Xray. However, due to dataset privacy, we enable a brief request before you can preview or download the dataset. Please provide your name, institution, and a brief explanation of how you intend to use the data to our Email: anonymous_ab6@hotmail.com, alongside the automatic verification process ON THE WEBSITE. We will grant access instantly when we receive the information. 
+                <p>
 
     
         <section id="abstract">
