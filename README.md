@@ -48,7 +48,9 @@
     <nav>
         <a href="#abstract">Abstract</a>
         <a href="#theme">DX-Mamba and state space model (SSM)</a>
+        <a href="https://huggingface.co/datasets/Anonymousab/Dog-Xray">Dataset</a>
         <a href="#results">Results</a>
+
     </nav>
 
     <div class="tab-container">
