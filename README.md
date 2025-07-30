@@ -59,6 +59,10 @@
     </div>
     
     <main>
+
+                <p>We have uploaded our dataset on Hugging Face: https://huggingface.co/datasets/Anonymousab/Dog-Xray. However, due to dataset privacy, we enable a brief request before you can preview or download the dataset. Please provide your name, institution, and a brief explanation of how you intend to use the data to our Email: anonymous_ab6@hotmail.com, alongside the automatic verification process ON THE WEBSITE. We will grant access instantly when we receive the information. 
+
+    
         <section id="abstract">
             <h2 style="text-align: center;">Abstract</h2>
             <p>Thoracic diseases are common causes of canine deaths. Automatic medical imaging report generation aims to generate accurate and coherent reports for medical images to save manual labor for clinicians. Research in the past decade showed that deep learning approaches could achieve promising performance in assisting disease diagnoses with medical image interpretation in the medical field. However, the deep learning application for report generation in the veterinary field is limited. Also, deep learning models require a more comprehensive structure and a large amount of data for training to improve their diagnostic efficiency and accuracy in report generation. Therefore, in this paper, we first develop a large-scale dog thoracic X-ray images dataset, Dog-Xray, with 13,794 subject studies and 36,264 thoracic X-ray images between 2008 and 2024. We then propose a novel DX-Mamba model that combines a Mamba vision model for multimodal feature extraction, a triple attention alignment for multi-imaging and text feature alignment, a feature fusion state space model (FF-SSM) and a feature disentanglement state space model (FD-SSM) for comprehensive feature learning and disentanglement, and a prediction module for report generation. We also propose a novel report inter-class loss and an intra-class loss to ensure the compactness of similar report content within and among reports, for better report generation performance. Extensive experiment results show that our DX-Mamba model achieves state-of-the-art performance in the report generation task.</p>
@@ -84,7 +88,7 @@
             <p>To evaluate the performance of our proposed DX-Mamba model, we collected a large-scale dog x-ray dataset, named Dog-Xray. With extensive experiments, we show that our DX-Mamba model can be applied as an effective report-generation model, in both the veterinary and human medical fields.</p>
                 <h3>Dataset</h3>
                 <p>We develop the first large-scale dog thoracic X-ray dataset, Dog-Xray, mainly to deal with the lack of training data for deep learning models, facilitating the report generation task in the veterinary field. The dataset is unique as it is the first large-scale dataset focusing on dogs. It contains 13,794 dog thoracic studies and 36,264 corresponding X-ray images. The detailed information of the split train, validation, and test datasets is shown in Table 1.
-                <p>We have uploaded our dataset on Hugging Face: https://huggingface.co/datasets/Anonymousab/Dog-Xray. However, due to dataset privacy, we enable a brief request before you can preview or download the dataset. Please provide your name, institution, and a brief explanation of how you intend to use the data to our Email: anonymous_ab6@hotmail.com, alongside the automatic verification process ON THE WEBSITE. We will grant access instantly when we receive the information. 
+
 
                 <figure style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
                     <img src="Figures/Dataset overview.png" alt="Table 1: An overview of the Dog-Xray dataset." style="width: 800px; max-width: 100%; height: auto;">
